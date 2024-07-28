@@ -40,7 +40,7 @@ header img{
     position: relative;
     width: 20%;
     animation: show 5s 1;
-    filter: drop-shadow(5px 5px 8px rgb(18, 18, 18));
+    filter: drop-shadow(4px 5px 10px rgb(18, 18, 18));
 }
 
 div{
@@ -55,7 +55,7 @@ div img{
 }
 
 section, footer{
-    background: linear-gradient(45deg, #0b1a0d, #168d81);
+    background: linear-gradient(45deg, #164918, #168d81);
     text-align: center;
     padding: 1rem 5rem;
 }
