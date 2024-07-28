@@ -132,4 +132,7 @@ footer p{
     div img{
         width: 30%;
     }
+    footer p{
+        font-size:0.5rem;
+    }
 }
