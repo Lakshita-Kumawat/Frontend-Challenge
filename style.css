@@ -55,7 +55,7 @@ div img{
 }
 
 section, footer{
-    background-color: #0a8175;
+    background: linear-gradient(45deg, #0b1a0d, #168d81);
     text-align: center;
     padding: 1rem 5rem;
 }
@@ -68,7 +68,7 @@ section img{
 
 
 #join,#fee, #schedule{
-    background-color: darkslategray;
+    background: darkslategray;
 }
 
 #join h2, #fee h2, #schedule h2{
