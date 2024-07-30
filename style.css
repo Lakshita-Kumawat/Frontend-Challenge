@@ -29,7 +29,7 @@ span{
     background: rgb(98, 240, 240);
     border-radius: 100%;
     display: block;
-    animation: fall infinite linear;
+    animation: fall linear infinite;
     animation-duration: calc(16s/var(--i));
     box-shadow: 0 0 10px rgb(141, 230, 245),
     0 0 50px rgb(187, 238, 248);
@@ -83,7 +83,8 @@ div img{
 }
 
 section, footer{
-    background: linear-gradient(45deg, #164918, #168d81);
+    background: linear-gradient(45deg, #060606, #08212d, black);
+    color: rgb(148, 148, 148);
     text-align: center;
     padding: 1rem 5rem;
 }
@@ -94,12 +95,12 @@ section img{
     object-fit: cover;
 }
 
-
-#join,#fee, #schedule{
-    background: darkslategray;
+.alt-style{
+    background: linear-gradient(45deg, #600754, #453d77, #313131);
+    color: black;
 }
 
-#join h2, #fee h2, #schedule h2{
+.alt-style h2{
     color: black;
 }
 
@@ -152,7 +153,7 @@ footer p{
         padding: 1rem 1rem;;
     }
     footer p{
-        font-size:0.5rem;
+        font-size:0.7rem;
     }
 }
 
