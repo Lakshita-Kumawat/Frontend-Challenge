@@ -178,7 +178,7 @@ footer p{
     header img{
         width: 25%;
     }
-    div img{
+    #image-display img{
         width: 20%;
     }
     #about img{
@@ -208,7 +208,7 @@ footer p{
     header img{
         width: 70%;
     }
-    div img{
+    #image-display img{
         width: 30%;
     }
 }
