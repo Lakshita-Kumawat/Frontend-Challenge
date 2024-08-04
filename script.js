@@ -81,7 +81,8 @@ gsap.to("header img",{
 let tl = gsap.timeline({scrollTrigger:{
     trigger:'#about h2, #about p',
     start:'top 80%',
-    end:'+=1200',
+    end:'+=1500',
+    delay:2,
     toggleAction:'play pause resume restart',
     scrub:3,
 }});
