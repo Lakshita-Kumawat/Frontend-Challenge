@@ -206,7 +206,7 @@ footer p{
 
 @media(max-width:450px){
     header img{
-        width: 70%;
+        width: 60%;
     }
     #image-display img{
         width: 30%;
